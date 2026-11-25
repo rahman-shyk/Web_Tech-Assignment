@@ -19,7 +19,8 @@ do not use production data for this validation.
 
 Use mock adapters until a real provider is selected.
 
-## Q-005: Netlify authentication
+## Q-005: Netlify Preview setup
 
-Sign in to Netlify in the integrated browser before a preview site can be
-created or linked. No deploy has been published.
+Netlify authentication and GitHub connection are complete, and the app source
+is on the `netlify-preview` branch. Create the preview site after an isolated
+staging MongoDB URI is available; no deploy has been published.

@@ -35,9 +35,9 @@ every acceptance criterion in the PDF has passed.
 - The latest credential-safe health probe returned `MONGODB_UNAVAILABLE`; a
   local environment check detected the documented placeholder URI, so no Atlas
   connection or database write was attempted.
-- No Netlify site is linked to this working directory. The user authorized a
-  new preview site, but the dashboard still requires authentication and no
-  Netlify site is linked; no preview has been published.
+- Netlify is signed in and connected to the GitHub repository. The app source
+  is published on the `netlify-preview` branch, but no site has been created
+  or deployed. Finish setup only after an isolated staging URI is available.
 - Production publishing, real payment providers, subscription pricing, email
   delivery and legal/tax rules require separate explicit decisions.
 
